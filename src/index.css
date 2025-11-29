@@ -1,0 +1,80 @@
+/* Tailwind core */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===================== */
+/* GLASS CARD */
+/* ===================== */
+.glass {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(90deg, #7c3aed, #06b6d4, #ec4899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Shiny button */
+.btn-shine {
+  position: relative;
+  overflow: hidden;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-weight: 500;
+}
+.btn-shine::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 120%;
+  height: 100%;
+  background: linear-gradient(120deg, rgba(255,255,255,0), rgba(255,255,255,0.65), rgba(255,255,255,0));
+  transform: skewX(-20deg);
+  transition: left .6s ease;
+}
+.btn-shine:hover::before { left: 120%; }
+
+/* Glow for numbers */
+.glow-number {
+  text-shadow: 0 6px 24px rgba(124,58,237,0.24);
+}
+
+/* Mobile tweaks */
+@media (max-width: 768px) {
+  .hide-md { display: none; }
+}
+
+/* DARK MODE OVERRIDES */
+.dark .glass {
+  background: rgba(10,11,13,0.55);
+  border: 1px solid rgba(255,255,255,0.04);
+  color: #e6eef8;
+}
+
+.dark .gradient-text {
+  background: linear-gradient(90deg, #9b7cff, #4de3e6, #ff7db2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* ===================== */
+/* GLASS NAVBAR */
+/* ===================== */
+
+@layer components {
+  .glass-nav {
+    background: rgba(255,255,255,0.07);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255,255,255,0.18);
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Praneeth",
+      "email": "praneeth@gmail.com",
+      "password": "Praneeth@123",
+      "age": 20
+    },
+    {
+      "id": "f03f",
+      "name": "lohith sai",
+      "email": "lohith@gmail.com",
+      "password": "1234",
+      "age": 22
+    },
+    {
+      "id": "805f",
+      "name": "Chaitanya",
+      "email": "chaitanya@gmail.com",
+      "password": "123456",
+      "age": 21
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Learn React - Components",
+      "priority": "High",
+      "completed": false,
+      "isHabit": true,
+      "createdAt": "2025-11-21T07:00:00.000Z",
+      "deadline": "2025-11-25",
+      "reminderTime": "18:30",
+      "repeat": {
+        "type": "weekly",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri"
+        ]
+      },
+      "timeGoalMinutes": 60,
+      "timeSpent": [
+        {
+          "date": "2025-11-21",
+          "minutes": 30,
+          "summary": "Read components chapter",
+          "missed": false,
+          "reason": ""
+        },
+        {
+          "date": "2025-11-27",
+          "minutes": 60,
+          "summary": "React chapter 2",
+          "missed": false,
+          "reason": ""
+        }
+      ],
+      "postponedUntil": null,
+      "notes": "",
+      "missedForDate": {
+        "2025-11-20": "Busy with college"
+      },
+      "id": "task-1",
+      "userId": "1"
+    },
+    {
+      "title": "Coding",
+      "priority": "High",
+      "completed": false,
+      "isHabit": true,
+      "createdAt": "2025-11-21T18:24:58.159Z",
+      "reminderTime": "21:00",
+      "repeat": {
+        "type": "weekly",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      "timeGoalMinutes": 30,
+      "timeSpent": [
+        {
+          "date": "2025-11-27",
+          "minutes": 60,
+          "summary": "Javascript Concepts ; javascript Concepts",
+          "missed": false,
+          "reason": ""
+        }
+      ],
+      "postponedUntil": "2025-11-28",
+      "notes": "",
+      "missedForDate": {
+        "2025-11-27": "Due to other work"
+      },
+      "id": "task-coding",
+      "userId": "1"
+    },
+    {
+      "title": "Gym",
+      "priority": "Medium",
+      "completed": false,
+      "isHabit": true,
+      "createdAt": "2025-11-21T18:45:20.764Z",
+      "reminderTime": "14:37",
+      "repeat": {
+        "type": "weekly",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat"
+        ]
+      },
+      "timeGoalMinutes": 120,
+      "timeSpent": [
+        {
+          "date": "2025-11-22",
+          "minutes": 130,
+          "summary": "Biceps and Triceps",
+          "missed": false,
+          "reason": ""
+        },
+        {
+          "date": "2025-11-27",
+          "minutes": 60,
+          "summary": "Chest and Triceps",
+          "missed": false,
+          "reason": ""
+        }
+      ],
+      "postponedUntil": null,
+      "notes": "",
+      "missedForDate": {
+        "2025-11-22": "Because of More work "
+      },
+      "id": "aac1",
+      "userId": "1"
+    },
+    {
+      "title": "OS CLA",
+      "priority": "High",
+      "completed": false,
+      "isHabit": false,
+      "createdAt": "2025-11-26T18:37:52.462Z",
+      "deadline": "2025-11-27",
+      "reminderTime": "15:30",
+      "timeSpent": [],
+      "postponedUntil": null,
+      "notes": "",
+      "missedForDate": {},
+      "id": "4c39",
+      "userId": "1"
+    },
+    {
+      "title": "Prepare for CN Viva",
+      "priority": "High",
+      "completed": false,
+      "isHabit": false,
+      "createdAt": "2025-11-27T09:05:02.902Z",
+      "deadline": "2025-11-29",
+      "reminderTime": "22:20",
+      "repeat": null,
+      "timeGoalMinutes": null,
+      "timeSpent": [],
+      "postponedUntil": null,
+      "notes": "",
+      "missedForDate": {},
+      "userId": "1",
+      "id": "bec4"
+    },
+    {
+      "id": "1f32",
+      "title": "Learning DataStructures",
+      "priority": "Medium",
+      "completed": false,
+      "isHabit": true,
+      "createdAt": "2025-11-27T09:21:15.954Z",
+      "deadline": "2025-12-27",
+      "reminderTime": "14:52",
+      "repeat": {
+        "type": "weekly",
+        "days": [
+          "Sat",
+          "Sun"
+        ]
+      },
+      "timeGoalMinutes": 30,
+      "timeSpent": [
+        {
+          "date": "2025-11-27",
+          "minutes": 39,
+          "summary": "Datastructures basics",
+          "missed": false,
+          "reason": ""
+        }
+      ],
+      "postponedUntil": null,
+      "notes": "",
+      "missedForDate": {},
+      "userId": "1"
+    },
+    {
+      "id": "fca7",
+      "title": "Coding",
+      "priority": "High",
+      "completed": false,
+      "isHabit": true,
+      "createdAt": "2025-11-27T18:03:32.001Z",
+      "deadline": "2025-12-27",
+      "reminderTime": "23:34",
+      "repeat": {
+        "type": "weekly",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri"
+        ]
+      },
+      "timeGoalMinutes": 30,
+      "timeSpent": [],
+      "postponedUntil": null,
+      "notes": "",
+      "missedForDate": {},
+      "userId": "1"
+    },
+    {
+      "id": "b275",
+      "title": "ML CLA",
+      "priority": "High",
+      "completed": false,
+      "isHabit": false,
+      "createdAt": "2025-11-29T16:53:48.728Z",
+      "deadline": "2025-11-30",
+      "reminderTime": "22:24",
+      "repeat": null,
+      "timeGoalMinutes": null,
+      "timeSpent": [],
+      "postponedUntil": null,
+      "notes": "",
+      "missedForDate": {},
+      "userId": "f03f"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "1",
+      "title": "Breakfast - Cafe",
+      "category": "Food",
+      "amount": 120,
+      "date": "2025-11-20",
+      "time": "08:15",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Bus fare",
+      "category": "Transport",
+      "amount": 40,
+      "date": "2025-11-20",
+      "time": "09:05",
+      "userId": "1"
+    },
+    {
+      "id": "3",
+      "title": "Groceries",
+      "category": "Shopping",
+      "amount": 850,
+      "date": "2025-11-19",
+      "time": "18:30",
+      "userId": "1"
+    },
+    {
+      "title": "Biriyani",
+      "category": "Food",
+      "amount": 350,
+      "date": "2025-11-22",
+      "time": "23:16",
+      "id": "1ea8",
+      "userId": "1"
+    },
+    {
+      "id": "dd61",
+      "title": "Online Shopping",
+      "category": "Shopping",
+      "amount": 2000,
+      "date": "2025-11-22",
+      "time": "00:56",
+      "userId": "1"
+    },
+    {
+      "id": "508e",
+      "title": "EMI",
+      "category": "Bills",
+      "amount": 5000,
+      "date": "2025-11-22",
+      "time": "01:59",
+      "userId": "1"
+    },
+    {
+      "id": "62c0",
+      "title": "Online Shopping",
+      "category": "Shopping",
+      "amount": 2600,
+      "date": "2025-11-26",
+      "time": "23:45",
+      "userId": "1"
+    },
+    {
+      "id": "cc5d",
+      "title": "Biriyani",
+      "category": "Food",
+      "amount": 260,
+      "date": "2025-11-27",
+      "time": "00:58",
+      "userId": "1"
+    },
+    {
+      "id": "a6b4",
+      "title": "Manchuriya and Smoodh",
+      "category": "Food",
+      "amount": 100,
+      "date": "2025-11-27",
+      "time": "14:37",
+      "userId": "1"
+    },
+    {
+      "id": "c19e",
+      "title": "Clothes",
+      "category": "Shopping",
+      "amount": 1500,
+      "date": "2025-11-27",
+      "time": "14:38",
+      "userId": "1"
+    },
+    {
+      "id": "0a4d",
+      "title": "Bus Ticket",
+      "category": "Transport",
+      "amount": 80,
+      "date": "2025-11-27",
+      "time": "14:38",
+      "userId": "1"
+    },
+    {
+      "id": "ccbd",
+      "title": "Mobile Recharge",
+      "category": "Bills",
+      "amount": 399,
+      "date": "2025-11-27",
+      "time": "14:39",
+      "userId": "1"
+    },
+    {
+      "id": "6c9b",
+      "title": "Recharge Friend",
+      "category": "Bills",
+      "amount": 2999,
+      "date": "2025-11-27",
+      "time": "15:42",
+      "userId": "1"
+    },
+    {
+      "id": "9d96",
+      "title": "Biriyani",
+      "category": "Food",
+      "amount": 250,
+      "date": "2025-11-27",
+      "time": "23:36",
+      "userId": "f03f"
+    },
+    {
+      "id": "c16f",
+      "title": "EMI",
+      "category": "Bills",
+      "amount": 5999,
+      "date": "2025-11-29",
+      "time": "00:35",
+      "userId": "1"
+    },
+    {
+      "id": "f671",
+      "title": "Bus Ticket",
+      "category": "Transport",
+      "amount": 260,
+      "date": "2025-11-29",
+      "time": "23:03",
+      "userId": "f03f"
+    },
+    {
+      "id": "e1fb",
+      "title": "T-shirt",
+      "category": "Shopping",
+      "amount": 1250,
+      "date": "2025-11-29",
+      "time": "23:04",
+      "userId": "f03f"
+    },
+    {
+      "id": "7fc4",
+      "title": "Fried Rice",
+      "category": "Food",
+      "amount": 120,
+      "date": "2025-11-29",
+      "time": "23:22",
+      "userId": "1"
+    }
+  ],
+  "expensesMeta": {
+    "monthlyLimit": 20000
+  },
+  "health": [
+    {
+      "id": "a1a1",
+      "water": 750,
+      "sleep": 8,
+      "steps": 5000,
+      "date": "2025-11-21",
+      "userId": "1"
+    },
+    {
+      "id": "f9ef",
+      "water": 750,
+      "sleep": 0,
+      "steps": 0,
+      "date": "2025-11-21",
+      "userId": "1"
+    },
+    {
+      "id": "ad61",
+      "water": 500,
+      "sleep": 0,
+      "steps": 0,
+      "date": "2025-11-21",
+      "userId": "1"
+    },
+    {
+      "id": "7c05",
+      "water": 2500,
+      "sleep": 8,
+      "steps": 5200,
+      "date": "2025-11-21",
+      "userId": "1"
+    },
+    {
+      "id": "69d8",
+      "water": 250,
+      "sleep": 0,
+      "steps": 0,
+      "date": "2025-11-21",
+      "userId": "1"
+    },
+    {
+      "id": "2da8",
+      "water": 2500,
+      "sleep": 8,
+      "steps": 5100,
+      "date": "2025-11-22",
+      "userId": "1"
+    },
+    {
+      "id": "0f3a",
+      "water": 2260,
+      "sleep": 9,
+      "steps": 5500,
+      "date": "2025-11-26",
+      "userId": "1"
+    },
+    {
+      "id": "de16",
+      "water": 2000,
+      "sleep": 7,
+      "steps": 1700,
+      "date": "2025-11-27",
+      "userId": "1"
+    },
+    {
+      "id": "0e95",
+      "water": 2000,
+      "sleep": 8,
+      "steps": 3600,
+      "date": "2025-11-27",
+      "userId": "f03f"
+    },
+    {
+      "id": "94b6",
+      "water": 1500,
+      "sleep": 8,
+      "steps": 2000,
+      "date": "2025-11-28",
+      "userId": "f03f"
+    },
+    {
+      "id": "7949",
+      "water": 1500,
+      "sleep": 6,
+      "steps": 6000,
+      "date": "2025-11-29",
+      "userId": "805f"
+    },
+    {
+      "id": "05d5",
+      "water": 2250,
+      "sleep": 7,
+      "steps": 5000,
+      "date": "2025-11-29",
+      "userId": "1"
+    }
+  ],
+  "healthGoals": {
+    "waterMl": 2000,
+    "cupSizeMl": 250,
+    "sleepHours": 7.5,
+    "steps": 5998,
+    "scoreThreshold": 70
+  },
+  "profiles": [
+    {
+      "id": "prof-1",
+      "name": "Praneeth",
+      "age": 20,
+      "email": "praneeth@gmail.com",
+      "userId": "1",
+      "weeklyLimit": 14000,
+      "monthlyLimit": 60000
+    },
+    {
+      "id": "prof-f03f",
+      "name": "Lohith Sai",
+      "age": 22,
+      "email": "lohith@gmail.com",
+      "userId": "f03f",
+      "weeklyLimit": null,
+      "monthlyLimit": null
+    },
+    {
+      "id": "prof-805f",
+      "name": "Chaitanya",
+      "age": 21,
+      "email": "chaitanya@gmail.com",
+      "userId": "805f",
+      "weeklyLimit": null,
+      "monthlyLimit": null
+    }
+  ],
+  "expenseLimits": [
+    {
+      "id": "206c",
+      "weeklyLimit": 10000,
+      "userId": "1",
+      "monthlyLimit": 60000
+    }
+  ]
+}
