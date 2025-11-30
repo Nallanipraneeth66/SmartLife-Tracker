@@ -251,6 +251,23 @@
       "notes": "",
       "missedForDate": {},
       "userId": "f03f"
+    },
+    {
+      "title": "FullStack Project Review",
+      "priority": "High",
+      "completed": false,
+      "isHabit": false,
+      "createdAt": "2025-11-29T19:11:04.893Z",
+      "deadline": "2025-12-02",
+      "reminderTime": "00:42",
+      "repeat": null,
+      "timeGoalMinutes": null,
+      "timeSpent": [],
+      "postponedUntil": null,
+      "notes": "",
+      "missedForDate": {},
+      "userId": "1",
+      "id": "e298"
     }
   ],
   "expenses": [
@@ -415,6 +432,15 @@
       "date": "2025-11-29",
       "time": "23:22",
       "userId": "1"
+    },
+    {
+      "id": "e8d3",
+      "title": "Fried Rice",
+      "category": "Food",
+      "amount": 120,
+      "date": "2025-11-30",
+      "time": "00:22",
+      "userId": "1"
     }
   ],
   "expensesMeta": {
@@ -515,6 +541,14 @@
       "sleep": 7,
       "steps": 5000,
       "date": "2025-11-29",
+      "userId": "1"
+    },
+    {
+      "id": "0cf5",
+      "water": 2000,
+      "sleep": 8,
+      "steps": 2350,
+      "date": "2025-11-30",
       "userId": "1"
     }
   ],
