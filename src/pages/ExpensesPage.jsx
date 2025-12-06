@@ -450,7 +450,7 @@ export default function ExpensesPage() {
                 ? "border-red-500/50 bg-red-500/10" 
                 : "border-blue-500/30"
             }`}>
-              <div className="text-sm opacity-70 mb-2">Weekly Budget</div>
+              <div className="text-sm opacity-70 mb-2">Weekly Spent</div>
               <div className="text-2xl font-bold mb-1">₹{totals.week}</div>
               <div className="text-xs sm:text-sm opacity-70 mb-2">
                 Limit: <span className="font-semibold">₹{userLimits.weeklyLimit}</span>
@@ -479,7 +479,7 @@ export default function ExpensesPage() {
                 ? "border-red-500/50 bg-red-500/10" 
                 : "border-purple-500/30"
             }`}>
-              <div className="text-sm opacity-70 mb-2">Monthly Budget</div>
+              <div className="text-sm opacity-70 mb-2">Monthly Spent</div>
               <div className="text-2xl font-bold mb-1">₹{totals.month}</div>
               <div className="text-xs sm:text-sm opacity-70 mb-2">
                 Limit: <span className="font-semibold">₹{userLimits.monthlyLimit}</span>

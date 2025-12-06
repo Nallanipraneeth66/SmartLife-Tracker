@@ -56,12 +56,7 @@ export default function Navbar({ dark, setDark }) {
         {/* THEME + PROFILE or AUTH BUTTONS */}
         <div className="flex items-center gap-3">
           {/* Theme Toggle */}
-          <button
-            onClick={() => setDark(!dark)}
-            className="p-2 rounded-full transition bg-white/15 hover:bg-white/25 text-white shadow-lg border border-white/20"
-          >
-            {dark ? <FiSun size={20} /> : <FiMoon size={20} />}
-          </button>
+          
           {/* If NOT logged in → show Login + Signup */}
           {!user && (
             <div className="hidden md:flex gap-3">

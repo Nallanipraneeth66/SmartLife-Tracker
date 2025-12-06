@@ -4,7 +4,7 @@ import { FiEdit3, FiSave, FiUser, FiLock } from "react-icons/fi";
 import { useAuth } from "../context/AuthContext";
 
 export default function ProfilePage() {
-  const { user } = useAuth();
+  const { user, login } = useAuth(); // add login updater
   const [editing, setEditing] = useState(false);
   const [showPasswordBox, setShowPasswordBox] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -14,27 +14,22 @@ export default function ProfilePage() {
     age: 0,
     email: "",
   });
-
   const [passwordData, setPasswordData] = useState({
     oldPassword: "",
     newPassword: "",
   });
 
-  // Don't render until user is loaded
   if (!user || !user.id) {
     return null;
   }
-
   const userId = user.id;
 
   const loadProfile = async () => {
     try {
       setLoading(true);
       const res = await getProfile(userId);
-      // Handle array response from profiles endpoint
       const profiles = Array.isArray(res.data) ? res.data : [res.data].filter(Boolean);
       const profileData = profiles.find(p => p.userId === userId);
-      
       if (profileData) {
         setProfile({
           name: profileData.name || "",
@@ -42,7 +37,6 @@ export default function ProfilePage() {
           email: profileData.email || "",
         });
       } else {
-        // If no profile exists, initialize with user data
         setProfile({
           name: user.name || "",
           age: user.age || 0,
@@ -51,7 +45,6 @@ export default function ProfilePage() {
       }
     } catch (err) {
       console.error("Failed to load profile", err);
-      // Initialize with user data if profile doesn't exist
       setProfile({
         name: user.name || "",
         age: user.age || 0,
@@ -67,23 +60,26 @@ export default function ProfilePage() {
       alert("Name and email are required");
       return;
     }
-    
     try {
-      // Get current profile to preserve limits
       const currentRes = await getProfile(userId);
       const profiles = Array.isArray(currentRes.data) ? currentRes.data : (currentRes.data ? [currentRes.data] : []);
       const currentProfile = profiles.find(p => p.userId === userId) || {};
-      
-      await updateProfile({ 
+      await updateProfile({
         name: profile.name.trim(),
         age: Number(profile.age) || 0,
         email: profile.email.trim(),
-        // Preserve limits if they exist
         weeklyLimit: currentProfile.weeklyLimit ?? null,
         monthlyLimit: currentProfile.monthlyLimit ?? null
       }, userId);
       setEditing(false);
       alert("Profile Updated Successfully!");
+      // Sync user context (login)
+      login({
+        ...user,
+        name: profile.name.trim(),
+        age: Number(profile.age) || 0,
+        email: profile.email.trim(),
+      });
       await loadProfile();
     } catch (err) {
       console.error("Failed to update profile", err);
@@ -134,9 +130,7 @@ export default function ProfilePage() {
               disabled={!editing}
               value={profile.name}
               onChange={(e) => setProfile({ ...profile, name: e.target.value })}
-              className={`p-3 rounded-xl w-full text-black ${
-                !editing ? "opacity-60 cursor-not-allowed" : ""
-              }`}
+              className={`p-3 rounded-xl w-full text-black ${!editing ? "opacity-60 cursor-not-allowed" : ""}`}
             />
           </div>
           <div className="space-y-2">
@@ -147,12 +141,8 @@ export default function ProfilePage() {
               min="1"
               max="150"
               value={profile.age}
-              onChange={(e) =>
-                setProfile({ ...profile, age: Number(e.target.value) || 0 })
-              }
-              className={`p-3 rounded-xl w-full text-black ${
-                !editing ? "opacity-60 cursor-not-allowed" : ""
-              }`}
+              onChange={(e) => setProfile({ ...profile, age: Number(e.target.value) || 0 })}
+              className={`p-3 rounded-xl w-full text-black ${!editing ? "opacity-60 cursor-not-allowed" : ""}`}
             />
           </div>
           <div className="space-y-2">
@@ -161,12 +151,8 @@ export default function ProfilePage() {
               type="email"
               disabled={!editing}
               value={profile.email}
-              onChange={(e) =>
-                setProfile({ ...profile, email: e.target.value })
-              }
-              className={`p-3 rounded-xl w-full text-black ${
-                !editing ? "opacity-60 cursor-not-allowed" : ""
-              }`}
+              onChange={(e) => setProfile({ ...profile, email: e.target.value })}
+              className={`p-3 rounded-xl w-full text-black ${!editing ? "opacity-60 cursor-not-allowed" : ""}`}
             />
           </div>
           {/* EDIT / SAVE BUTTON */}
@@ -203,24 +189,14 @@ export default function ProfilePage() {
                 type="password"
                 placeholder="Old Password"
                 value={passwordData.oldPassword}
-                onChange={(e) =>
-                  setPasswordData({
-                    ...passwordData,
-                    oldPassword: e.target.value,
-                  })
-                }
+                onChange={(e) => setPasswordData({ ...passwordData, oldPassword: e.target.value })}
                 className="p-3 rounded-xl w-full text-black"
               />
               <input
                 type="password"
                 placeholder="New Password"
                 value={passwordData.newPassword}
-                onChange={(e) =>
-                  setPasswordData({
-                    ...passwordData,
-                    newPassword: e.target.value,
-                  })
-                }
+                onChange={(e) => setPasswordData({ ...passwordData, newPassword: e.target.value })}
                 className="p-3 rounded-xl w-full text-black"
               />
               <button

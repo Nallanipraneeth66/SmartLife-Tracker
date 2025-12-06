@@ -4,15 +4,15 @@
       "id": "1",
       "name": "Praneeth",
       "email": "praneeth@gmail.com",
-      "password": "Praneeth@123",
-      "age": 20
+      "password": "1234",
+      "age": 21
     },
     {
       "id": "f03f",
-      "name": "lohith sai",
+      "name": "Lohith Sai Yannam",
       "email": "lohith@gmail.com",
       "password": "1234",
-      "age": 22
+      "age": 20
     },
     {
       "id": "805f",
@@ -20,6 +20,27 @@
       "email": "chaitanya@gmail.com",
       "password": "123456",
       "age": 21
+    },
+    {
+      "name": "janarthan",
+      "email": "jana@gmail.com",
+      "password": "9876",
+      "age": 21,
+      "id": "lWYXOWq"
+    },
+    {
+      "name": "Tanish",
+      "email": "tanish_ravi@srmap.edu.in",
+      "password": "tanish2005",
+      "age": 20,
+      "id": "Pjcd-QD"
+    },
+    {
+      "name": "Demo User1",
+      "email": "demouser1@gmail.com",
+      "password": "123456",
+      "age": 21,
+      "id": "LTX6Np3"
     }
   ],
   "tasks": [
@@ -136,6 +157,13 @@
           "summary": "Chest and Triceps",
           "missed": false,
           "reason": ""
+        },
+        {
+          "date": "2025-12-06",
+          "minutes": 120,
+          "summary": "Leg Excercises",
+          "missed": false,
+          "reason": ""
         }
       ],
       "postponedUntil": null,
@@ -149,22 +177,24 @@
     {
       "title": "OS CLA",
       "priority": "High",
-      "completed": false,
+      "completed": true,
       "isHabit": false,
       "createdAt": "2025-11-26T18:37:52.462Z",
       "deadline": "2025-11-27",
       "reminderTime": "15:30",
+      "repeat": null,
+      "timeGoalMinutes": null,
       "timeSpent": [],
       "postponedUntil": null,
       "notes": "",
       "missedForDate": {},
-      "id": "4c39",
-      "userId": "1"
+      "userId": "1",
+      "id": "4c39"
     },
     {
       "title": "Prepare for CN Viva",
       "priority": "High",
-      "completed": false,
+      "completed": true,
       "isHabit": false,
       "createdAt": "2025-11-27T09:05:02.902Z",
       "deadline": "2025-11-29",
@@ -200,6 +230,13 @@
           "date": "2025-11-27",
           "minutes": 39,
           "summary": "Datastructures basics",
+          "missed": false,
+          "reason": ""
+        },
+        {
+          "date": "2025-12-05",
+          "minutes": 30,
+          "summary": "",
           "missed": false,
           "reason": ""
         }
@@ -265,9 +302,131 @@
       "timeSpent": [],
       "postponedUntil": null,
       "notes": "",
-      "missedForDate": {},
+      "missedForDate": {
+        "2025-12-02": "NO PROPER PREPARATION"
+      },
       "userId": "1",
       "id": "e298"
+    },
+    {
+      "title": "BOARD THE BUS",
+      "priority": "High",
+      "completed": false,
+      "isHabit": false,
+      "createdAt": "2025-12-02T11:40:40.509Z",
+      "deadline": "2025-12-02",
+      "reminderTime": "16:30",
+      "repeat": null,
+      "timeGoalMinutes": null,
+      "timeSpent": [],
+      "postponedUntil": null,
+      "notes": "",
+      "missedForDate": {},
+      "userId": "1",
+      "id": "t3ACWMf"
+    },
+    {
+      "title": "Gym",
+      "priority": "Low",
+      "completed": false,
+      "isHabit": true,
+      "createdAt": "2025-12-03T06:49:21.446Z",
+      "deadline": "2026-09-30",
+      "reminderTime": "20:00",
+      "repeat": {
+        "type": "Today",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri"
+        ]
+      },
+      "timeGoalMinutes": 45,
+      "timeSpent": [],
+      "postponedUntil": null,
+      "notes": "",
+      "missedForDate": {},
+      "userId": "Pjcd-QD",
+      "id": "BHxNynS"
+    },
+    {
+      "title": "playing tennis",
+      "priority": "High",
+      "completed": false,
+      "isHabit": true,
+      "createdAt": "2025-12-05T10:17:01.966Z",
+      "deadline": "2026-01-05",
+      "reminderTime": "18:00",
+      "repeat": {
+        "type": "weekly",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri"
+        ]
+      },
+      "timeGoalMinutes": 45,
+      "timeSpent": [],
+      "postponedUntil": null,
+      "notes": "",
+      "missedForDate": {},
+      "userId": "1",
+      "id": "DX6x0c4"
+    },
+    {
+      "title": "Play Cricket",
+      "priority": "High",
+      "completed": false,
+      "isHabit": true,
+      "createdAt": "2025-12-06T08:43:56.388Z",
+      "deadline": "2026-01-06",
+      "reminderTime": "16:30",
+      "repeat": {
+        "type": "weekly",
+        "days": [
+          "Sat",
+          "Sun"
+        ]
+      },
+      "timeGoalMinutes": 60,
+      "timeSpent": [],
+      "postponedUntil": null,
+      "notes": "",
+      "missedForDate": {},
+      "userId": "1",
+      "id": "E92nlic"
+    },
+    {
+      "title": "Going to running",
+      "priority": "High",
+      "completed": false,
+      "isHabit": true,
+      "createdAt": "2025-12-06T09:11:23.188Z",
+      "deadline": "2026-01-06",
+      "reminderTime": "17:00",
+      "repeat": {
+        "type": "weekly",
+        "days": [
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      "timeGoalMinutes": 30,
+      "timeSpent": [],
+      "postponedUntil": null,
+      "notes": "",
+      "missedForDate": {},
+      "userId": "1",
+      "id": "5n9zhCu"
     }
   ],
   "expenses": [
@@ -441,6 +600,204 @@
       "date": "2025-11-30",
       "time": "00:22",
       "userId": "1"
+    },
+    {
+      "id": "ff88",
+      "title": "Night Track",
+      "category": "Shopping",
+      "amount": 1200,
+      "date": "2025-11-30",
+      "time": "17:43",
+      "userId": "1"
+    },
+    {
+      "id": "23f1",
+      "title": "Electricity",
+      "category": "Bills",
+      "amount": 2460,
+      "date": "2025-11-30",
+      "time": "20:48",
+      "userId": "1"
+    },
+    {
+      "id": "8fba",
+      "title": "Bus Ticket",
+      "category": "Transport",
+      "amount": 260,
+      "date": "2025-11-30",
+      "time": "17:45",
+      "userId": "1"
+    },
+    {
+      "id": "eeae",
+      "title": "Aloo",
+      "category": "Food",
+      "amount": 25,
+      "date": "2025-12-01",
+      "time": "13:54",
+      "userId": "1"
+    },
+    {
+      "id": "da48",
+      "title": "Biriyani",
+      "category": "Food",
+      "amount": 250,
+      "date": "2025-12-01",
+      "time": "14:14",
+      "userId": "f03f"
+    },
+    {
+      "title": "CHICKEN BIRYANI",
+      "category": "Food",
+      "amount": 300,
+      "date": "2025-12-02",
+      "time": "17:03",
+      "userId": "1",
+      "id": "kafUYyy"
+    },
+    {
+      "title": "COKE COLA",
+      "category": "Food",
+      "amount": 20,
+      "date": "2025-12-02",
+      "time": "17:04",
+      "userId": "1",
+      "id": "GdURAec"
+    },
+    {
+      "title": "Buds",
+      "category": "Shopping",
+      "amount": 5000,
+      "date": "2025-12-03",
+      "time": "10:19",
+      "userId": "1",
+      "id": "lddB9Jc"
+    },
+    {
+      "title": "Tax",
+      "category": "Bills",
+      "amount": 6000,
+      "date": "2025-12-03",
+      "time": "10:19",
+      "userId": "1",
+      "id": "Id7HVP1"
+    },
+    {
+      "title": "Ticket",
+      "category": "Transport",
+      "amount": 190,
+      "date": "2025-12-03",
+      "time": "10:33",
+      "userId": "1",
+      "id": "Jmo2sww"
+    },
+    {
+      "title": "biryani",
+      "category": "Food",
+      "amount": 2500,
+      "date": "2025-12-03",
+      "time": "11:12",
+      "userId": "lWYXOWq",
+      "id": "wuoIwTj"
+    },
+    {
+      "title": "dresses",
+      "category": "Shopping",
+      "amount": 29000,
+      "date": "2025-12-03",
+      "time": "11:14",
+      "userId": "lWYXOWq",
+      "id": "L6fS3no"
+    },
+    {
+      "title": "biryani",
+      "category": "Food",
+      "amount": 200,
+      "date": "2025-12-03",
+      "time": "12:19",
+      "userId": "Pjcd-QD",
+      "id": "Nxd1aYg"
+    },
+    {
+      "title": "petrol",
+      "category": "Transport",
+      "amount": 400,
+      "date": "2025-12-03",
+      "time": "12:21",
+      "userId": "Pjcd-QD",
+      "id": "zo4QWp3"
+    },
+    {
+      "title": "Biriyani",
+      "category": "Food",
+      "amount": 200,
+      "date": "2025-12-03",
+      "time": "14:27",
+      "userId": "1",
+      "id": "BF-2u8W"
+    },
+    {
+      "title": "Current Bill",
+      "category": "Bills",
+      "amount": 2569,
+      "date": "2025-12-05",
+      "time": "14:58",
+      "userId": "1",
+      "id": "7q1sMBl"
+    },
+    {
+      "title": "Biryani",
+      "category": "Food",
+      "amount": 300,
+      "date": "2025-12-04",
+      "time": "15:23",
+      "userId": "1",
+      "id": "3f-H8pA"
+    },
+    {
+      "title": "Biryani",
+      "category": "Food",
+      "amount": 300,
+      "date": "2025-12-05",
+      "time": "15:24",
+      "userId": "1",
+      "id": "zmlaYSP"
+    },
+    {
+      "title": "Electricity",
+      "category": "Bills",
+      "amount": 1000,
+      "date": "2025-12-05",
+      "time": "15:47",
+      "userId": "1",
+      "id": "ObUS_4d"
+    },
+    {
+      "title": "Biriyani",
+      "category": "Food",
+      "amount": 300,
+      "date": "2025-12-06",
+      "time": "13:07",
+      "userId": "1",
+      "id": "KUBZC2S"
+    },
+    {
+      "title": "Ear Buds",
+      "category": "Shopping",
+      "amount": 3000,
+      "date": "2025-12-06",
+      "time": "14:42",
+      "userId": "1",
+      "id": "2wIXG-6"
+    },
+    {
+      "title": "Electricity",
+      "category": "Bills",
+      "amount": 2866,
+      "date": "2025-12-06",
+      "time": "14:57",
+      "userId": "1",
+      "id": "L83rrQF"
     }
   ],
   "expensesMeta": {
@@ -550,29 +907,77 @@
       "steps": 2350,
       "date": "2025-11-30",
       "userId": "1"
+    },
+    {
+      "water": 1500,
+      "sleep": 6,
+      "steps": 3000,
+      "date": "2025-12-02",
+      "userId": "1",
+      "id": "xHdiraH"
+    },
+    {
+      "water": 1500,
+      "sleep": 8,
+      "steps": 2000,
+      "date": "2025-12-03",
+      "userId": "1",
+      "id": "JZ9_EGt"
+    },
+    {
+      "water": 1000,
+      "sleep": 6,
+      "steps": 200,
+      "date": "2025-12-03",
+      "userId": "lWYXOWq",
+      "id": "Up_q3PJ"
+    },
+    {
+      "water": 500,
+      "sleep": 6,
+      "steps": 3000,
+      "date": "2025-12-03",
+      "userId": "Pjcd-QD",
+      "id": "ccxsE9E"
+    },
+    {
+      "water": 3000,
+      "sleep": 15,
+      "steps": 20000,
+      "date": "2025-12-05",
+      "userId": "1",
+      "id": "ldwYAuL"
+    },
+    {
+      "water": 2000,
+      "sleep": 8,
+      "steps": 4000,
+      "date": "2025-12-06",
+      "userId": "1",
+      "id": "73YC5MX"
     }
   ],
   "healthGoals": {
     "waterMl": 2000,
     "cupSizeMl": 250,
     "sleepHours": 7.5,
-    "steps": 5998,
+    "steps": 5000,
     "scoreThreshold": 70
   },
   "profiles": [
     {
       "id": "prof-1",
       "name": "Praneeth",
-      "age": 20,
+      "age": 21,
       "email": "praneeth@gmail.com",
       "userId": "1",
-      "weeklyLimit": 14000,
+      "weeklyLimit": 17000,
       "monthlyLimit": 60000
     },
     {
       "id": "prof-f03f",
-      "name": "Lohith Sai",
-      "age": 22,
+      "name": "Lohith Sai Yannam",
+      "age": 20,
       "email": "lohith@gmail.com",
       "userId": "f03f",
       "weeklyLimit": null,
@@ -584,6 +989,33 @@
       "age": 21,
       "email": "chaitanya@gmail.com",
       "userId": "805f",
+      "weeklyLimit": null,
+      "monthlyLimit": null
+    },
+    {
+      "name": "janarthan",
+      "email": "jana@gmail.com",
+      "age": 21,
+      "userId": "lWYXOWq",
+      "id": "qydfzkL",
+      "weeklyLimit": 15000,
+      "monthlyLimit": 15000
+    },
+    {
+      "name": "Tanish",
+      "email": "tanish_ravi@srmap.edu.in",
+      "age": 20,
+      "userId": "Pjcd-QD",
+      "id": "HfYB4Gc",
+      "weeklyLimit": 500,
+      "monthlyLimit": 2000
+    },
+    {
+      "name": "Demo User1",
+      "email": "demouser1@gmail.com",
+      "age": 21,
+      "userId": "LTX6Np3",
+      "id": "fsoM5cX",
       "weeklyLimit": null,
       "monthlyLimit": null
     }

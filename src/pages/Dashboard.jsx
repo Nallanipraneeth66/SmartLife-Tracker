@@ -1,5 +1,5 @@
 // src/pages/Dashboard.jsx
-import React, { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { FiCheckSquare, FiActivity, FiDollarSign } from "react-icons/fi";
 import DashboardCharts from "../components/DashboardCharts";
 import { getTasks } from "../api/taskApi";
