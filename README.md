@@ -156,3 +156,11 @@ This project is private and for personal/educational use.
 ## Contributing
 
 This is a personal project. Contributions are welcome but please open an issue first to discuss changes.
+
+## 📹 Project Videos
+
+### Demonstration Video (11 minutes)
+Click to View Demonstration: ./Team-5_SmartLife Tracker_Demonstration.mp4
+
+### Code Explanation Video (8 minutes)
+Click to View Code Explanation: ./Team-5_SmartLife Tracker_Code Explanation.mp4
