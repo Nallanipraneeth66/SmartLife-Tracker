@@ -10,7 +10,7 @@ A comprehensive life management application built with React, Vite, and JSON-Ser
 - ✅ **Health Monitoring**: Track water intake, sleep, and steps with visual charts
 - ✅ **Multi-User Support**: Full user isolation with authentication
 - ✅ **Responsive Design**: Beautiful UI that works on all devices
-- ✅ **Dark Mode**: Toggle between light and dark themes
+
 
 ## Prerequisites
 
