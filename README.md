@@ -164,3 +164,7 @@ Click to View Demonstration: ./Team-5_SmartLife Tracker_Demonstration.mp4
 
 ### Code Explanation Video (8 minutes)
 Click to View Code Explanation: ./Team-5_SmartLife Tracker_Code Explanation.mp4
+
+## Project Report 
+
+Click to View Project Report: ./SmartLife Tracker_Report.pdf
