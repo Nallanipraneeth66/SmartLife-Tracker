@@ -160,11 +160,13 @@ This is a personal project. Contributions are welcome but please open an issue f
 ## Project Videos
 
 ### Demonstration Video (11 minutes)
-Click to View Demonstration: ./Team-5_SmartLife Tracker_Demonstration.mp4
+Click to View Demonstration: [./Team-5_SmartLife Tracker_Demonstration.mp4](https://github.com/Nallanipraneeth66/SmartLife-Tracker/blob/main/Team-5_SmartLife%20Tracker_Demonstration.mp4
+)
 
 ### Code Explanation Video (8 minutes)
-Click to View Code Explanation: ./Team-5_SmartLife Tracker_Code Explanation.mp4
-
+Click to View Code Explanation: [./Team-5_SmartLife Tracker_Code Explanation.mp4
+](https://github.com/Nallanipraneeth66/SmartLife-Tracker/blob/main/Team-5_SmartLife%20Tracker_Code%20Explanation.mp4
+)
 ## Project Report 
 
-Click to View Project Report: ./SmartLife Tracker_Report.pdf
+Click to View Project Report: [./SmartLife Tracker_Report.pdf](https://github.com/Nallanipraneeth66/SmartLife-Tracker/blob/main/Group-5_SmartLife%20Tracker_Report.pdf)
