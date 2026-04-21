@@ -4,12 +4,12 @@ A comprehensive life management application built with React, Vite, and JSON-Ser
 
 ## Features
 
-- ✅ **Task Management**: Create, update, and delete tasks with priorities and deadlines
-- ✅ **Habit Tracking**: Track daily habits with time goals and progress visualization
-- ✅ **Expense Tracking**: Monitor spending with categories, filters, and budget limits
-- ✅ **Health Monitoring**: Track water intake, sleep, and steps with visual charts
-- ✅ **Multi-User Support**: Full user isolation with authentication
-- ✅ **Responsive Design**: Beautiful UI that works on all devices
+-  **Task Management**: Create, update, and delete tasks with priorities and deadlines
+-  **Habit Tracking**: Track daily habits with time goals and progress visualization
+-  **Expense Tracking**: Monitor spending with categories, filters, and budget limits
+-  **Health Monitoring**: Track water intake, sleep, and steps with visual charts
+-  **Multi-User Support**: Full user isolation with authentication
+-  **Responsive Design**: Beautiful UI that works on all devices
 
 
 ## Prerequisites
